@@ -108,7 +108,7 @@ Tests are defined in the `tests` folder in this project. Use PIP to install the 
 
 ```bash
 Run a virtual Env
-cloud-portfolio-site$ python3 -m venv test
+cloud-portfolio-site$ python3 -m venv api_test
 cloud-portfolio-site$ source test/bin/activate
 cloud-portfolio-site$ pip install -r requirements.txt
 # Deactivate virtual env when done
