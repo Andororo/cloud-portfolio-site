@@ -107,7 +107,12 @@ You can find more information and examples about filtering Lambda function logs 
 Tests are defined in the `tests` folder in this project. Use PIP to install the test dependencies and run tests.
 
 ```bash
-cloud-portfolio-site$ pip install -r tests/requirements.txt --user
+Run a virtual Env
+cloud-portfolio-site$ python3 -m venv test
+cloud-portfolio-site$ source test/bin/activate
+cloud-portfolio-site$ pip install -r requirements.txt
+# Deactivate virtual env when done
+cloud-portfolio-site$ deactivate
 # unit test
 cloud-portfolio-site$ python -m pytest tests/unit -v
 # integration test, requiring deploying the stack first.
